@@ -202,7 +202,7 @@ def user_stats(df):
 
 
 def display_data(df):
-    """Displays 5 rows of data."""
+    """Asks to display data in 5 rows sequence."""
     
     view_data = input('\nWould you like to view 5 rows of individual trip data? Enter yes or no\n').lower()
     start_loc = 0
